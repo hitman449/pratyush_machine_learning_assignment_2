@@ -87,11 +87,11 @@ project-folder/
 
 ## Live Streamlit App
 
-To be added 
+https://pratyushmachinelearningassignment2-cknmxtshveupytznyjgscc.streamlit.app/
 
 ## GitHub Repository
 
-To be added]
+https://github.com/hitman449/pratyush_machine_learning_assignment_2/blob/main/project-folder
 
 ## Tech Stack
 
