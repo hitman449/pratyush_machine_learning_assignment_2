@@ -46,7 +46,10 @@ st.markdown("---")
 @st.cache_data
 def load_default_data():
     """Load the default heart.csv dataset."""
-    df = pd.read_csv("heart.csv")
+    import os
+    # Get the directory where app.py is located
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    df = pd.read_csv(os.path.join(base_dir, "heart.csv"))
     df = df.drop_duplicates()
     return df
 
